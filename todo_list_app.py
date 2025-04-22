@@ -1,6 +1,5 @@
 
 # Simple To-Do List App in Python
-
 # This script allows you to add, view, and delete tasks in a text-based to-do list.
 
 todo_list = []
@@ -42,7 +41,6 @@ def main():
     while True:
         show_menu()
         choice = input("Choose an option (1-4): ")
-
         if choice == '1':
             view_tasks()
         elif choice == '2':
@@ -54,7 +52,6 @@ def main():
             break
         else:
             print("Invalid choice. Please enter a number from 1 to 4.")
-
 
 if __name__ == "__main__":
     main()
